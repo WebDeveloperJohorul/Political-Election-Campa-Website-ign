@@ -1,14 +1,6 @@
 (function($) {
     'use strict';
 
-    // Mobile Menu
-    $('.mobile-menu nav').meanmenu({
-        meanScreenWidth: "991",
-        meanMenuContainer: ".mobile-menu",
-        meanMenuOpen: "<span></span> <span></span> <span></span>",
-        onePage: false,
-    });
-
 
     // =======< accordion js >========
     $(".accordion > li:eq(0) a").addClass("active").next().slideDown();
